@@ -1,0 +1,56 @@
+# .gitignore para proyecto Maven/Java con Karate
+
+# Maven build output
+/target/
+
+# Compiled classes and packages
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+logs/
+
+# IDEs
+/.idea/
+*.iml
+/out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# Mac/Windows
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+
+# Maven wrapper (ignore jar but keep scripts/config if desired)
+/.mvn/wrapper/maven-wrapper.jar
+
+# Toolchains and local settings
+/toolchains.xml
+/toolchains.xml.example
+
+# Karate and test reports (under target)
+# target/karate-reports/ (already covered by /target/)
+
+# Others
+.idea_modules/
+*.log.*
+.env
+
+# Keep README, scripts and source tracked
+!README-JDK21.md
+!run-tests.ps1
+
