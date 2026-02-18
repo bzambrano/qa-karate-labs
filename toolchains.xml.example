@@ -1,0 +1,17 @@
+<!--
+Example Maven toolchains configuration for JDK 21.
+Copy this file to your Maven settings location as %USERPROFILE%\.m2\toolchains.xml (Windows)
+or ~/.m2/toolchains.xml (Linux/macOS) and set the correct <jdkHome> path for your JDK 21 installation.
+-->
+<toolchains>
+  <toolchain>
+    <type>jdk</type>
+    <provides>
+      <version>21</version>
+      <vendor>temurin</vendor>
+    </provides>
+    <configuration>
+      <jdkHome>C:\Program Files\Eclipse Adoptium\jdk-21</jdkHome>
+    </configuration>
+  </toolchain>
+</toolchains>
